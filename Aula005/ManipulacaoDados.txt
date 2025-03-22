@@ -1,0 +1,6 @@
+Var ou Let?  EcmaScript
+--- ------------- ---
+
+Number 
+String
+NumberParse do objeto Number(classe do JS)

@@ -1,0 +1,8 @@
+Number --> infinity and NaN
+string
+Boolean
+Null  -- é um object
+Undefined
+object ---> array
+function
+--- typeof
