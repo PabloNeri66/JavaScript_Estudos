@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, ~  initial-scale=1.0">
     <title>Bem Vindo</title>
     <style>
         /* CSS */
         body {
             background-color: rgb(97, 202, 250);
-            color: crimson;
+            color: rgba(220, 20, 60, 0.767);
             font: bold 20px Sans-Serif;
         }
     </style>
@@ -20,11 +20,11 @@
     <p>Já me livrei da maldicao </p>
 
     <script> /* JS */
-        var numero1 = Number.parseInt(window.prompt('Digite um Número: ')) //Input em string do JS
-        var numero2 = Number.parseInt(window.prompt('Digite outro numero: '))
+        var numero1 = Number(window.prompt('Digite um Número: ')) //Input em string do JS
+        var numero2 = Number(window.prompt('Digite outro numero: '))
         var soma = numero1 + numero2
 
-        window.alert('o valor da soma dos numeros é '+ soma) //Concatenacão juntando os numeros em string contudo eu transformei em int usando o construtor Number...
+        window.alert('o valor da soma dos numeros é '+ string(soma)) //Concatenacão juntando os numeros em string contudo eu transformei em int usando o construtor Number...
 
     </script>
 </body>
