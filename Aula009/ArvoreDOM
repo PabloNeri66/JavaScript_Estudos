@@ -1,0 +1,19 @@
+window
+{
+    Document
+}
+{
+    HTML
+}
+{
+    Head{
+        Meta, Title
+    }, Body{
+        H1, p, p{Strong}, div
+    }
+}
+
+
+Acesso aos Elementos usando dom por:
+
+Marca - ID - Nome - Classe - Seletor
