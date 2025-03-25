@@ -9,8 +9,8 @@
         /* CSS */
         body {
             background-color: rgb(97, 202, 250);
-            color: crimson;
-            font: bold 20px Sans-Serif;
+            color: rgb(41, 33, 35);
+            font: bold 20px arial;
         }
     </style>
 </head>
@@ -18,14 +18,29 @@
 <body>
     <h1>Iniciando!</h1>
     <p>Já me livrei da maldicao </p>
-    <p>Aprendendo Com o DOM</p>
-    <div> Clique em MIM</div>
+    <p>Aprendendo Com o <strong>DOM</strong></p>
+    <div id = 'msg'> Clique em MIM</div>
     <Script>
         //DOM
+
+
         window.document.write
-        //Selecao por tagname
-        var p1 = window.document.getElementsByTagName('p')[0];
-        window.document.write('vai corinthians ' + p1.innerText)
+        //--Selecao por tagname--
+        var p1 = window.document.getElementsByTagName('p')[1];
+        //window.document.writeln('vai corinthians ' + p1.innerText)
+        var corpo = window.document.body
+
+        /*--selecao por ID--
+        var divTest = window.document.getElementById('msg')
+        divTest.style.background = 'green'*/
+
+
+        //selecao por nome e Class
+            //Mesmo principio de ID
+
+        //Seletor
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'red'
     </Script>
 </body>
 
