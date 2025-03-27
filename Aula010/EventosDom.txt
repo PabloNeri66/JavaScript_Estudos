@@ -1,0 +1,20 @@
+Evento é tudo que pode ocorrer com essa div ( as acoes que ela pode obter)
+
+    Criamos Uma DIV para entendimento;
+
+    DOM events Na div --->
+        Mouse:
+            Mouseenter
+            Mousemove
+            Mousedown
+            Mouseup
+            Click
+            Mouseout
+        entre outros...
+__________________________________________________________
+Funcoes...
+    Em JavaScript uma FUNCTION se relaciona com o evento.
+        Uma funcao é um bloco de codigo que só ocorre na funcao e para ela
+        Function Acao(params.){
+            bloco
+        }
