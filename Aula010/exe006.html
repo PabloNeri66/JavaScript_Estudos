@@ -18,17 +18,23 @@
     </style>
 </head>
 <body>
-    <div id ='area' onclick="clicar()" onmouseenter="entrar()">Interaja...</div>
+    <div id ='area' onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">Interaja...</div>
     
 
-    <script>function clicar() {
+    <script>
+    function clicar() {
         //funcao clicar da div
         var a = window.document.getElementById('area')
         a.innerText = 'Clicou' //muda o Conteudo.
 
     }
     function entrar(){
-        var a = window.document.getElementById()
+        var a = window.document.getElementById('area')
+        a.innerText = 'entrou'
+    }
+    function sair(){
+        var a = window.document.getElementById('area')
+        a.innerText = 'saiu'
     }
     </script>
 </body>
